@@ -1,0 +1,12 @@
+# .streamlit/config.toml
+# 대시보드의 색상 테마와 모양을 정합니다. (앱처럼 보이게 다듬는 부분)
+
+[theme]
+primaryColor = "#2563eb"          # 버튼 등 강조 색 (파랑)
+backgroundColor = "#ffffff"       # 배경색
+secondaryBackgroundColor = "#f1f5f9"  # 카드/사이드바 배경
+textColor = "#0f172a"             # 글자색
+font = "sans serif"
+
+[server]
+headless = true                   # 서버에서 자동 실행될 때 안내창 안 띄움
